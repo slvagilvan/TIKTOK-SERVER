@@ -2,8 +2,8 @@ local HttpService = game:GetService("HttpService")
 local Players = game:GetService("Players")
 local Debris = game:GetService("Debris") -- Serviço que remove itens do mapa
 
--- COLOQUE O SEU LINK DO RAILWAY AQUI (Terminando obrigatoriamente com /get-events)
-local RAILWAY_URL = "https://SEU-LINK-AQUI.up.railway.app/get-events"
+-- URL DO RAILWAY ATUALIZADA COM O SEU DOMÍNIO REAL
+local RAILWAY_URL = "https://tiktok-server-production-848c.up.railway.app/get-events"
 
 -- CONFIGURAÇÕES
 local TEMPO_DE_VIDA = 60 -- Segundos que o boneco fica na tela antes de sumir
